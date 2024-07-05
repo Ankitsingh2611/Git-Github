@@ -1,0 +1,107 @@
+git status
+git init
+
+git init
+git add <file> <file2>
+git status
+
+git commit -m "commit message"
+git status
+
+git log
+--oneline
+
+Git add .gitignore
+Git commit -m "added new file"
+
+
+.gitkeep
+
+Rename branch
+git branch -m <old-branch-name> <new-branch-name>
+
+git branch
+git branch bug-fix
+git switch bug-fix
+git log
+git switch master
+git switch -c dark-mode
+git checkout orange-mode
+
+git checkout main
+git merge bug-fix
+
+Checkout
+git checkout <branch-name>
+
+Delete branch
+git branch -d <branch-name>
+
+List branch
+git branch
+
+Compare
+git diff <branch-name-one> <branch-name-two>
+
+git diff branch-name-one..branch-name-two
+
+git diff <commit-hash-one> <commit-hash-two>
+
+Git Stash
+Stash is a way to save your changes in a temporary location.
+git stash
+
+Stash apply & drop 
+git stash pop
+
+Drop stash
+git stash drop
+
+Clear stash
+git stash clear
+
+Tag
+git tag <tag-name>
+
+Annotated tag
+git tag -a <tag-name> -m "Release 1.0"
+
+List all tag
+git tag
+
+Tagging a hash
+git tag <tag-name> <commit-hash>
+
+Push tag
+git push origin <tag-name>
+
+Delete tag
+git push origin :<tag-name>
+
+Rebase & reflog
+Git rebase is a powerful Git feature used to change the base of a branch.
+Ensure you are on the branch you want to rebase:
+
+git checkout feature-branch
+git rebase main
+
+Git reflog is a command that shows you the history of your commits.
+
+git reflog
+
+git reflog <commit-hash>
+
+Recover lost commits or changes
+
+git reflog <commit-hash>
+git reset --hard <commit-hash>
+
+
+
+
+
+
+
+
+
+

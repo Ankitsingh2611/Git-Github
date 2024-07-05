@@ -1,0 +1,27 @@
+git config --global user.email "your-email@example.com"
+git config --global user.name "Your Name"
+
+git config --list
+
+git init
+git add <files>
+git commit -m "commit message"
+
+git fetch <remote-name>
+
+git remote -v
+
+Pull code
+
+
+
+git pull origin main
+
+Add remote repository
+git remote add origin https://github.com/hiteshchoudhary/chai-something.git
+
+git push origin main
+
+git remote add upstream <remote-url>
+git remote add -u <remote-url>
+git push -u origin main

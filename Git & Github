@@ -1,0 +1,13 @@
+Git init
+Paste https
+Git branch -M main
+Git add *
+Git commit -m "write"
+If error occurred run the command and login
+Git push -u origin main
+
+
+
+Git add *
+Git commit -m "write"
+Git push -u origin main 
