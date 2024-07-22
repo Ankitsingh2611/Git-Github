@@ -1,3 +1,145 @@
+ls
+mkdir project
+ls
+cd project
+
+
+
+
+
+
+
+
+
+project git init
+ls
+ls -a             //-a means show hidden files
+
+
+
+
+
+
+touch name.txt      //create file
+
+git status
+
+rm -rf ankit    //remove file
+
+git add .
+git status
+git commit -m "added file"
+vi name.txt // write anything in file
+cat name.txt // display written things
+git status
+git add name.txt
+git ststus
+git commit -m "modified file"
+git log             //shows the history
+git -rf name.txt    //remove name.txt
+//if we want to restore the deleted file just log the file and copy the encrypted txt
+git log
+git reset hagsdjaggbuk4696edsgygjshv
+git log
+git status
+git add .
+git status
+touch surname.txt    //rename name.txt to surname.txt
+git add .
+git status
+git stash            //save changes and send to backstage and not commited
+git stash pop         // comming changes of backstage to our secion  
+git stash clear       // all the changes deleted who are in backstage
+
+
+
+
+
+// create a new branch
+git branch ankit
+git checkout ankit
+git commit
+git checkout main
+git commit
+git merge ankit
+
+
+
+
+
+
+
+
+
+
+
+
+
+//fork
+git remote add upstream link of forked
+git remote -v
+//write changes
+vi readme.md
+git status
+git branch arpit
+git checkout arpit
+git add .
+git commit -m "arpit added branch"
+git log
+git push origin arpit
+
+
+
+
+
+
+
+
+
+
+
+
+
+//forced push
+git push origin arpit -f
+
+
+//feching the commit in main branch
+git checkout main
+git status
+git log
+git fetch --all --prune
+git reset --hard upstream/main
+git log
+git push origin main
+//git pull upstream main
+
+
+//combine commits
+git log
+git rebase -i jhsuib5sh78shvxjhdjh
+//we need to squash the other commit by using s in pick and insert commit :x
+git log
+git push origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Git init
 Paste https
 Git branch -M main
